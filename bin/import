@@ -1,8 +1,10 @@
 #!/usr/bin/env php
+/* This script reads the geo location's file and insert the values inside a 
+ * database.
+ * @author Natnael Getahun <n.getahun@jacobs-university.de>
+ */
 <?php
     require(__DIR__ . "/../includes/config.php");
-    // print(__DIR__ . "/../includes/config.php");
-    // TODO
     if ($argc != 2)
     {
         print("usage: ./import infile\n");
