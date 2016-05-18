@@ -1,4 +1,6 @@
-
+/*
+ * Sql rules to create a table.
+ */
 DROP TABLE IF EXISTS `places`;
 CREATE TABLE `places` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
