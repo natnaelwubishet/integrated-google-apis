@@ -2,10 +2,6 @@
 
     /**
      * config.php
-     *
-     * Computer Science 50
-     * Problem Set 8
-     *
      * Configures pages.
      */
 
