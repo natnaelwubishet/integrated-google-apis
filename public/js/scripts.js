@@ -1,9 +1,5 @@
 /**
  * scripts.js
- *
- * Computer Science 50
- * Problem Set 8
- *
  * Global JavaScript.
  */
 
