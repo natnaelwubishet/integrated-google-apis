@@ -3,14 +3,13 @@
  * database.
  * @author Natnael Getahun <n.getahun@jacobs-university.de>
  */
+ define (geo_file, "US.txt")
 <?php
     require(__DIR__ . "/../includes/config.php");
-    if ($argc != 2)
-    {
-        print("usage: ./import infile\n");
-        exit(1);
-    }
-    $file = $argv[1];
+    if($argc == 2)
+        $file = geo_file;
+    else    
+        $file = $argv[1];
     if (!file_exists($file))
     {
         print("The file you selected doesn't exist.");
