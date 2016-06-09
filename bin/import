@@ -6,7 +6,7 @@
  define (geo_file, "US.txt")
 <?php
     require(__DIR__ . "/../includes/config.php");
-    if($argc == 2)
+    if($argc != 2)
         $file = geo_file;
     else    
         $file = $argv[1];
